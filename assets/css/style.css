@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    border-top: 3px solid #59b200;
+}
+
+
+.container {
+    padding: 0 175px;
+}
+
+/* Navigation style */
+div#navbarColor01 {
+    position: absolute;
+    right: -15px;
+}
+.navBack {
+    padding: 0;
+    background-color: transparent!important;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: initial;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #111111;
+}
+li.nav-item.active {
+    border-bottom: 3px solid #ff9800;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+}
+.btnNavigation button {
+    width: 100px;
+    border-radius: 4px;
+    background: #ff9800;
+    color: whitesmoke;
+}
+.btnNavigation button:focus {
+    display: none;
+}
+@media (max-width: 991px) {
+    .btnNavigation {
+        padding-left: 0;
+    }
+    div#navbarColor01 {
+        position: initial;
+    }
+}
+@media (max-width: 575px) {
+    .navBack {
+        margin-bottom: -60px;
+        margin-top: -25px;
+        background-color: transparent!important;
+    }
+    .lessonInfo {
+        padding: 5px 30px;
+    }
+}
+
+
+/* Content Style */
+.lessonHead {
+    margin-top: 40px;
+}
+.lessonHead p {
+    margin-left: 10px;
+    display: inline;
+    font-size: 11px;
+    font-weight: 600;
+    color: #111111;
+}
+.lessonHead h3 {
+    display: inline;
+    font-weight: 700;
+    color: #59b200;
+}
+
+.headerImg {
+    position: relative;
+    top: -26px;
+    height: 240px;
+}
+.headerImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.lessonInfo p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #111111;   
+}
+
+.lessons {
+    margin-bottom: 30px;
+    height: 225px;
+    width: 100%;
+    background: #eeeeee;
+}
+.slanted {
+    clip-path: polygon(0 0, 0 46%, 46% 0);
+    background: #3ca6df;
+    height: 150px;
+    width: 173px;
+    color: whitesmoke
+}
+
+.txtRotate {
+    position: relative;
+    left: -10px;
+    top: -22px;
+    transform: rotate(-41deg);
+}
+.txtRotate p {
+    font-size: 12px;
+}
+
+.lessonImg {
+    padding: 0;
+    position: relative;
+    top: 20px;
+    right: 44px;
+}
+.lessonDet {
+    padding-left: 0;
+    padding-right: 83px;
+    margin-top: 50px;
+}
+.lessonDet h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.lessonDet p {
+    font-size: 12px;
+}
+
+.lessonImg img {
+    width: 100%;
+}
+.btnOne {
+    padding-right: 0;
+}
+.btnTwo {
+    padding-right: 0;
+}
+
+.btnOne button {
+    width: 100%;
+    border-radius: 0;
+    background: black;
+    color: whitesmoke;
+}
+.btnOne button:focus {
+    display: none;
+}
+.btnTwo button {
+    width: 100%;
+    border-radius: 0;
+    background: #bbbbbb;
+    color: #111111;
+}
+.btnTwo i {
+    color: white;
+}
+.btnTwo button:focus {
+    display: none;
+}
+.btnContent i {
+    display: inline;
+    font-size: 11px;
+}
+.btnContent p {
+    display: inline;
+    margin-left: 4px;
+    font-size: 10px;
+}
+.txtColor2 {
+    background: #6f4da2;
+}
+.txtColor3 {
+    background: #94c40b;
+}
+.txtColor4 {
+    background: #ff9800;
+}
+.txtColor5 {
+    background: #e50150;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        padding: 0 100px;
+    }
+    .headerImg {
+        height: 175px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        padding: 0;
+    }
+    .btnOneFoot {
+        padding-left: 0;
+    }
+    .btnTwoFoot {
+        padding-left: 0;
+    }
+    .footCol2 h4 {
+        font-size: 19px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        padding: 0;
+    }
+    .slanted {
+        background: #3ca6df;
+        height: 45px;
+        width: 100%;
+        color: whitesmoke;
+        clip-path: initial;
+    }
+    .txtRotate {
+        transform: initial;
+        position: initial;
+    }
+    .txtRotate p {
+        text-align: center;
+        font-size: 20px;
+        padding: 7px 0;
+    }
+    .lessonImg {
+        position: initial;
+        padding: 0 15px;
+    }
+    .lessonDet {
+        padding: 15px 50px;
+        margin-top: 0;
+    }
+    .btnOne {
+        padding: 0 15px;
+    }
+    .btnTwo {
+        padding: 0 15px;
+    }
+    .lessons {
+        height: 100%;
+    }
+    .txtColor2 {
+        background: #6f4da2;
+    }
+    .txtColor3 {
+        background: #94c40b;
+    }
+    .txtColor4 {
+        background: #ff9800;
+    }
+    .txtColor5 {
+        background: #e50150;
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        padding: 30px;
+    }
+    .slanted {
+        background: #3ca6df;
+        height: 45px;
+        width: 100%;
+        color: whitesmoke;
+        clip-path: initial;
+    }
+    .txtRotate {
+        transform: initial;
+        position: initial;
+    }
+    .txtRotate p {
+        text-align: center;
+        font-size: 20px;
+        padding: 7px 0;
+    }
+    .lessonImg {
+        position: initial;
+        padding: 0 15px;
+    }
+    .lessonDet {
+        padding: 15px 50px;
+        margin-top: 0;
+    }
+    .btnOne {
+        padding: 10px 15px;
+    }
+    .btnTwo {
+        padding: 10px 15px;
+    }
+    .lessons {
+        height: 100%;
+    }
+    .txtColor2 {
+        background: #6f4da2;
+    }
+    .txtColor3 {
+        background: #94c40b;
+    }
+    .txtColor4 {
+        background: #ff9800;
+    }
+    .txtColor5 {
+        background: #e50150;
+    }
+}
+
+
+.lineBreak {
+    margin-top: 100px;
+}
+
+
+
+/* footer style */
+.container-fluid {
+    padding: 0;
+    margin-top: -10px;
+}
+.footerList {
+    padding: 22px 30px;
+}
+.logoBox img {
+    width: 100%;
+}
+.logoBox {
+    height: 100px;
+    padding: 0 0 0 15px;
+}
+
+.footerList li {
+    list-style: none;
+    border-left: 1px solid rgba(0,0,0,.2);
+}
+.footerList li:last-child {
+    border-right: 1px solid rgba(0,0,0,.2);
+}
+
+
+.footerList li a {
+    font-size: 9px;
+	text-decoration: none;
+	color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.row.responsiveBox {
+    margin-top: -40px;
+}
+
+.footCol1 {
+    font-size: 10px;
+} 
+.footCol2 p {
+    display: inline;
+    font-size: 10px;
+    font-weight: 800;
+    color: white;
+    border-radius: 5px;
+    background: #ff9800;
+    padding: 0 4px;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    display: inline;
+}
+
+.btnOneFoot button {
+    width: 100%;
+    border-radius: 4px;
+    background: #ff9800;
+    color: whitesmoke;
+}
+.btnOneFoot button:focus {
+    display: none;
+}
+.btnTwoFoot button {
+    width: 100%;
+    border-radius: 5px;
+    background:#94c40b;
+    color: whitesmoke;
+}
+.btnTwoFoot i {
+    color: white;
+}
+.btnTwoFoot button:focus {
+    display: none;
+}
+.copyright {
+    height: 22px;
+    background: #ff9800;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.copyright p {
+    font-size: 11px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    line-height: 22px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logoBox {
+        padding: 0 230px;
+        height: 45px;
+    }
+    .footerList {
+        padding: 15px 0;
+        position: relative;
+        left: 50px;
+    }
+    .footerList li a {
+        font-size: 6px;
+    }
+    .responsiveBox {
+        padding: 0 20px;
+        margin-top: -15px!important;
+    }
+    .col-md-3.col-sm-6.footCol2 {
+        display: block;
+        text-align: center;
+    }
+    .footCol3 .row {
+        padding-left: 3px;
+    }
+    .copyright {
+        margin-top: 20px;
+    }
+    .headerImg {
+        height: 210px;
+    }
+}
+@media (max-width: 575px) {
+    .logoBox {
+        height: 75px;
+        width: 170px;
+    }
+    .moveUp {
+        padding-top: 0;
+    }
+    .footerList {
+        padding: 15px 20px;
+    }
+    .footerList li {
+        border-left: none;
+        margin-bottom: 15px;
+    }
+    .footerList li:last-child {
+        border-right: none;
+    }
+    .footerList li a {
+        text-align: left;
+        font-size: 11px;
+    }
+    .footCol3 {
+        margin-top: 15px;
+    }
+    .btnTwoFoot {
+        margin-top: 15px;
+    }
+    .headerImg {
+        height: 110px;
+    }
+    .responsiveBox {
+        margin-top: 0!important;
+    }
+    .lineBreak {
+        margin-top: 0;
+    }
+}
